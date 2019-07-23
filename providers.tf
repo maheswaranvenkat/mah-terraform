@@ -4,7 +4,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket         = "javahome-tf-1234567"
+    bucket         = "javahome-tf-12345678"
     key            = "terraform.tfstate"
     region         = "ap-south-1"
     dynamodb_table = "javahome-tf"
